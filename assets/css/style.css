@@ -975,6 +975,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.8s ease-in-out;
+  height:200px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
