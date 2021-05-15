@@ -784,9 +784,16 @@
         document.getElementById("phone").style.color="black";
         numbch="check";
       }
+      else if(phnumb.length>10)
+      {
+        pnumber.innerHTML="Ten number exceed";
+        document.getElementById("num-para").style.color="red";
+        numbch="uncheck";
+
+      }
     
       else{
-        pnumber.innerHTML="Invalid Phone Number";
+        pnumber.innerHTML="Ten number required";
         document.getElementById("num-para").style.color="red";
         numbch="uncheck";
       }
